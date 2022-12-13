@@ -830,7 +830,7 @@ text-transform: uppercase;
 }
 
 .creative1{
-  background-image: url(/assets/img/Creative1.png);
+  background-image: url(../../assets/img/Creative1.png);
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -841,7 +841,7 @@ text-transform: uppercase;
 }
 
 .creative2{
-  background-image: url(/assets/img/Creative2.png);
+  background-image: url(../../assets/img/Creative1.png);
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
