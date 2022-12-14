@@ -686,7 +686,29 @@ text-transform: uppercase;
   -webkit-box-shadow: -1px 0px 20px 13px rgb(0 0 0 / 40%);
   -moz-box-shadow: -1px 0px 20px 13px rgb(0 0 0 / 40%);
   box-shadow: -1px 0px 20px 13px rgb(0 0 0 / 40%);
-  margin-left: 50px;
+  margin-left: 40px;
+}
+
+
+
+.creative1 {
+  background-image: url(../../assets/img/Creative1.svg);
+  height: 60vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0px 40px;
+}
+
+.creative2 {
+  background-image: url(../../assets/img/Creative2.svg);
+  height: 60vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0px 40px 0px 0px;
 }
 
 /*--------------------------------------------------------------
