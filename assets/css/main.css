@@ -689,29 +689,11 @@ text-transform: uppercase;
   margin-left: 65px;
 }
 
-.creative1{
-  background-image: url(../../assets/img/Creative1.png);
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+.creative img{
   margin-left: 50px;
-  border-radius: 20px;
-}
-
-.creative2{
-  background-image: url(../../assets/img/Creative2.png);
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
   margin-left: 50px;
-  border-radius: 20px;
+  height: 60vh;
 }
-
-
 
 /*--------------------------------------------------------------
 # Scroll-1 Section End
