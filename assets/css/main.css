@@ -689,11 +689,25 @@ text-transform: uppercase;
   margin-left: 65px;
 }
 
-.creative img{
-  margin-left: 50px;
-  margin-left: 50px;
-  height: 60vh;
+.creative1{
+background-image: url(../../assets/img/Creative1.png);
+height: 100%;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+margin-left: 50px;
 }
+
+.creative2{
+  background-image: url(../../assets/img/Creative1.png);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: 50px;
+  }
 
 /*--------------------------------------------------------------
 # Scroll-1 Section End
