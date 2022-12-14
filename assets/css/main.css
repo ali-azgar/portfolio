@@ -683,31 +683,11 @@ text-transform: uppercase;
 .interactions img{
   border-radius: 35px;
   height: 60vh;
-  -webkit-box-shadow: -1px 0px 40px 13px rgb(0 0 0 / 77%);
-  -moz-box-shadow: -1px 0px 40px 13px rgb(0 0 0 / 77%);
-  box-shadow: -1px 0px 40px 13px rgb(0 0 0 / 77%);
-  margin-left: 65px;
-}
-
-.creative1{
-background-image: url(../../assets/img/Creative1.svg);
-height: 100%;
-width: 100%;
-background-repeat: no-repeat;
-background-position: center;
-background-size: contain;
-margin-left: 50px;
-}
-
-.creative2{
-  background-image: url(../../assets/img/Creative2.svg);
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  -webkit-box-shadow: -1px 0px 20px 13px rgb(0 0 0 / 40%);
+  -moz-box-shadow: -1px 0px 20px 13px rgb(0 0 0 / 40%);
+  box-shadow: -1px 0px 20px 13px rgb(0 0 0 / 40%);
   margin-left: 50px;
-  }
+}
 
 /*--------------------------------------------------------------
 # Scroll-1 Section End
