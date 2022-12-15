@@ -61,6 +61,7 @@ h6 {
     background: var(--color-primary);
     margin-left: 30px;
     cursor: pointer;
+    z-index: 9999;
 }
 
 .resume-cta-btn i{
@@ -350,7 +351,7 @@ h6 {
     max-width: 400px;
     bottom: 0;
     transition: 0.3s;
-    z-index: 9997;
+    z-index: 99999;
   }
 
   .navbar ul {
@@ -415,7 +416,7 @@ h6 {
     position: fixed;
     right: 20px;
     top: 20px;
-    z-index: 9999;
+    z-index: 99999;
   }
 
   .mobile-nav-active {
@@ -588,12 +589,22 @@ h6 {
   .card{
     width: 50% !important;
   }
+  .resume-cta-btn{
+    margin-left: 0px;
+    top: 250px !important;
+    position: absolute !important;
+  }
 }
 
 
 @media (max-width: 600px) and (min-width: 300px){
   .aliazgar-logo{
     width: 50px !important;
+  }
+  .resume-cta-btn{
+    margin-left: 0px;
+    top: 250px !important;
+    position: absolute !important;
   }
 
   .hero .col-lg-6{
@@ -915,6 +926,12 @@ text-transform: uppercase;
   margin: 0px 40px 0px 0px;
 }
 
+.res-creative1{
+  display: none;
+}
+.res-creative2{
+  display: none;
+}
 /*--------------------------------------------------------------
 # Scroll-1 Section End
 --------------------------------------------------------------*/
@@ -1081,22 +1098,24 @@ text-transform: uppercase;
   }
 
   .creative1 {
-    background-image: url(../../assets/img/Res-Creative1.svg);
-    height: 60%;
-    width: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin: 0px 40px;
+    display: none;
   }
   .creative2 {
-    background-image: url(../../assets/img/Res-Creative2.svg);
-    height: 60%;
-    width: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin: 0px 0px;
+    display: none;
+  }
+  .res-creative1{
+    display: block;
+  }
+  .res-creative2{
+    display: block;
+  }
+  .res-creative1 img{
+    height: 60vh;
+    margin-left: 40px;
+  }
+  .res-creative2 img{
+    height: 60vh;
+    margin-left: 40px;
   }
 }
 
@@ -1163,25 +1182,26 @@ text-transform: uppercase;
   }
 
   .creative1 {
-    background-image: url(../../assets/img/Res-Creative1.svg);
-    height: 70%;
-    width: 70%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin: 0px 40px;
+    display: none;
   }
   .creative2 {
-    background-image: url(../../assets/img/Res-Creative2.svg);
-    height: 70%;
-    width: 70%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin: 0px 0px;
+    display: none;
+  }
+  .res-creative1{
+    display: block;
+  }
+  .res-creative2{
+    display: block;
+  }
+  .res-creative1 img{
+    height: 60vh;
+    margin-left: 40px;
+  }
+  .res-creative2 img{
+    height: 60vh;
+    margin-left: 40px;
   }
 }
-
 
 .tools h1{
   margin-top: 80px;
