@@ -1305,6 +1305,7 @@ line-height: 80px;
 
 .testimonial {
   perspective-origin: 50% 50%;
+  z-index: 3;
   perspective: 100em;
   display: flex;
   justify-content: center;
@@ -1402,7 +1403,7 @@ line-height: 80px;
 .chat-bubble .content {
   white-space: pre-wrap;
   position: relative;
-  max-height: 175px;
+  max-height: 250px;
   padding: 5px 0;
   overflow-y: auto;
 }
