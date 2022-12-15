@@ -1305,7 +1305,7 @@ line-height: 80px;
 
 .testimonial {
   perspective-origin: 50% 50%;
-  z-index: 3;
+  z-index: 3 !important;
   perspective: 100em;
   display: flex;
   justify-content: center;
