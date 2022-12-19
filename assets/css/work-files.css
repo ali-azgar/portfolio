@@ -61,7 +61,7 @@
 .margin-maintain {
   margin-left: 240px;
   position: relative;
-  top: -28rem;
+  top: -32em;
 }
 
 /*--------------------------------------------------------------
@@ -111,13 +111,70 @@
   border-radius: 10px 0px 0px 10px;
 }
 
-
-
-
 .bi-chevron-right {
   margin-right: 10px;
   color: #ddbd8a;
 }
+
+
+@media (max-width: 900px) and (min-width: 601px) {
+  #left-workbar {
+    display: none;
+  }
+
+  .page-header {
+    padding: 120px 0 10px 0 !important;
+  }
+
+  #overview img {
+    margin-bottom: 15px;
+  }
+
+  .view-prototype {
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .view-prototype-btn {
+    margin-bottom: 20px;
+  }
+
+  .margin-maintain {
+    margin-left: 0px;
+    position: unset;
+    margin-top: -13%;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+  #left-workbar {
+    display: none;
+  }
+
+  .page-header {
+    padding: 120px 0 10px 0 !important;
+  }
+
+  #overview img {
+    margin-bottom: 15px;
+  }
+
+  .view-prototype {
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .view-prototype-btn {
+    margin-bottom: 20px;
+  }
+
+  .margin-maintain {
+    margin-left: 0px;
+    position: unset;
+    margin-top: -20%;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
