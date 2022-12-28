@@ -263,6 +263,7 @@ h6 {
   line-height: 0px;
   transition: 0.3s;
   font-size: 26px;
+  margin-left: 10px;
 }
 
 .header .header-social-links a:hover {
