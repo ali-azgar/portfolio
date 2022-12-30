@@ -69,19 +69,99 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-  <div class="wrap">
-    <input class="password_text" type="text" placeholder="Password" id="password" autocomplete="off">
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
 
-    <button class="form_btn" type="button" onclick="onLogin(document.getElementById('password').value)">Login</button>
+      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+        <img src="assets/img/Ali Azgar Logo.svg" class="aliazgar-logo" alt="">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html" class="active">Work</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <a href="./assets/Product Designer_Resume_Ali Azgar.pdf" download>
+          <div class="resume-cta-btn">Resume <i class="bi bi-arrow-down-square-fill"></i></div>
+        </a>
+      </nav><!-- .navbar -->
+
+
+      <div class="header-social-links hide-responsive">
+        <a href="https://www.linkedin.com/in/aliazgardesigner/" target="_blank" class="linkedin"><i
+            class="bi bi-linkedin"></i></i></a>
+        <a href="https://www.behance.net/aliazgar1" target="_blank" class="linkedin"><i
+            class="bi bi-behance"></i></i></a>
+      </div>
+
+      <div class="responsive-social-menu">
+        <div class="header-social-links">
+          <a href="https://www.linkedin.com/in/aliazgardesigner/" target="_blank" class="linkedin"><i
+              class="bi bi-linkedin"></i></i></a>
+          <a href="https://www.behance.net/aliazgar1" target="_blank" class="linkedin"><i
+              class="bi bi-behance"></i></i></a>
+        </div>
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      </div>
+
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <div class="section">
+    <div class="container wrap">
+      <div>
+        <input class="password_text" type="text" placeholder="Password" id="password" autocomplete="off">
+
+
+        <button class="form_btn" type="button"
+          onclick="onLogin(document.getElementById('password').value)">Login</button>
+      </div>
+      <div class="email">email me for password:</div>
+      <a href="mailto:aliazgar.designer@gmail.com" target="_blank" class="id">aliazgar.designer@gmail.com </a>
+    </div>
   </div>
+
 
   <script src="./assets/js/script.js"></script>
 
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer" style="bottom: 0; position: absolute; width: 100vw;">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>AliDezigns</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed & Developed by <a href="#">Ali Azgar</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/text-effect.js"></script>
+  <script src="assets/js/scroll-1.js"></script>
+  <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+  <script src='https://unpkg.com/gsap@3/dist/Draggable.min.js'></script>
+  <script src="./assets/js/testimonials.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script>
+  <script src="./assets/js/cards-scroll.js"></script>
 </body>
 
 </html>
